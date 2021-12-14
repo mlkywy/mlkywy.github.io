@@ -1,3 +1,3 @@
 # alshei.github.io
 
-Work-in-progress attempt at a custom portfolio website using HTML/CSS & JavaScript.
+[Nov, 2021] Work-in-progress attempt at a custom portfolio website using HTML/CSS & JavaScript.
