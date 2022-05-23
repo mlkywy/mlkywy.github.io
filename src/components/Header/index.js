@@ -7,7 +7,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="fixed backdrop-blur w-full flex flex-wrap items-center justify-between bg-light1 dark:bg-dark1 h-20 z-10">
+      <nav className="fixed w-full flex flex-wrap items-center justify-between bg-light1 dark:bg-dark1 h-20 z-10">
         <div className="container lg:px-8 md:px-8 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto md:w-auto">
             <a

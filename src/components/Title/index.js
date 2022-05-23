@@ -2,20 +2,18 @@ import React from "react";
 import { GithubLogo, LinkedinLogo, TwitterLogo } from "phosphor-react";
 import Typewriter from "typewriter-effect";
 
-const Title = () => {
+const Title = (props) => {
   return (
     <>
       <div className="w-80 text-5xl p-3  text-dark1 dark:text-light1 flex flex-col items-center text-center font-monospace">
-        Hi, I'm Alina!
+        {props.heading}
         <div className="w-full text-lg font-bold font-sans">
           <Typewriter
             options={{
               delay: 85,
             }}
             onInit={(typewriter) => {
-              typewriter
-                .start()
-                .typeString("Recent graduate and web developer. ");
+              typewriter.start().typeString(props.subheading);
             }}
           />
         </div>
