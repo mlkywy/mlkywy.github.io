@@ -10,8 +10,11 @@ const Navbar = () => {
       <nav className="fixed backdrop-blur w-full flex flex-wrap items-center justify-between bg-light1 dark:bg-dark1 h-20 z-10">
         <div className="container lg:px-8 md:px-8 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto md:w-auto">
-            <a className="text-accent text-2xl font-bold px-4 py-6" href="#">
-              mlkywy
+            <a
+              className="text-accent text-2xl px-4 py-6 font-monospace"
+              href="#"
+            >
+              MLKYWY
             </a>
 
             <button className="transition duration-500 ease-in-out rounded-full px-4 py-6 lg:hidden md:hidden">

@@ -4,9 +4,9 @@ import { GithubLogo, LinkedinLogo, TwitterLogo } from "phosphor-react";
 const Title = () => {
   return (
     <>
-      <div className="w-80 text-5xl p-3 font-bold text-dark1 dark:text-light1 flex flex-col items-center text-center">
+      <div className="w-80 text-5xl p-3  text-dark1 dark:text-light1 flex flex-col items-center text-center font-monospace">
         Hi, I'm Alina!
-        <div className="w-full text-lg">
+        <div className="w-full text-lg font-bold font-sans">
           I'm a recent graduate and aspiring software developer, based in the
           US.
         </div>

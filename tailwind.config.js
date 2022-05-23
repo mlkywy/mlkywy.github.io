@@ -30,6 +30,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: "'Cabin', sans-serif",
+        monospace: "'VT323', monospace",
       },
       colors: {
         dark1: "#171923",
