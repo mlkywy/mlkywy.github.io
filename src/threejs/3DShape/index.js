@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
-import { useFrame } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { Html } from "@react-three/drei";
 import "../../index.css";
 
-const Sphere = ({ time, ...props }) => {
+const Shape = ({ time, ...props }) => {
   return (
     <mesh {...props}>
       <sphereGeometry />
@@ -28,11 +28,20 @@ const Content = () => {
   );
   return (
     <group ref={ref}>
-      <Sphere position={[-2, 0, 0]} />
-      <Sphere position={[0, -2, -2]} />
-      <Sphere position={[2, 0, 0]} />
+      <Shape position={[-2, 0, 0]} />
+      <Shape position={[0, -2, -2]} />
+      <Shape position={[2, 0, 0]} />
     </group>
   );
 };
 
-export default Content;
+export const ShapeCanvas = () => {
+  return (
+    <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 10] }}>
+      <pointLight color="red" />
+      <pointLight position={[10, 10, -10]} color="#E7934F" />
+      <pointLight position={[-10, -10, 10]} color="#e63946" />
+      <Content />
+    </Canvas>
+  );
+};

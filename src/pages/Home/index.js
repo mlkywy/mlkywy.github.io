@@ -1,7 +1,6 @@
-import React from "react";
-import { Canvas } from "@react-three/fiber";
-import Content from "../../three/Scene";
 import Title from "../../components/Title";
+import React from "react";
+import { ShapeCanvas } from "../../threejs/3DShape";
 
 const Home = () => {
   return (
@@ -15,12 +14,7 @@ const Home = () => {
         </div>
 
         <div className="container h-full flex items-center justify-center">
-          <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 10] }}>
-            <pointLight color="red" />
-            <pointLight position={[10, 10, -10]} color="#E7934F" />
-            <pointLight position={[-10, -10, 10]} color="#e63946" />
-            <Content />
-          </Canvas>
+          <ShapeCanvas />
         </div>
       </div>
     </div>
