@@ -6,7 +6,7 @@ const Toggle = () => {
   const { theme, setTheme } = React.useContext(ThemeContext);
 
   return (
-    <div className="pr-4 pl-4 pt-6 pb-6 w-screen lg:w-auto md:w-auto bg-light1 dark:bg-dark1">
+    <div className="px-8 lg:px-4 md:px-4 py-6 w-screen lg:w-auto md:w-auto bg-light1 dark:bg-dark1">
       {theme === "dark" ? (
         <Sun
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
