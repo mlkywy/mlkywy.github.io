@@ -9,9 +9,8 @@ const Sphere = ({ time, ...props }) => {
       <sphereGeometry />
       <meshStandardMaterial roughness={0} emissive="#171923" />
       <Html distanceFactor={15}>
-        <div className="w-28 p-2.5 translate-x-1/2 text-center bg-light2 dark:bg-dark2 rounded-lg text-sm text-dark1 dark:text-light1 font-monospace">
+        <div className="w-24 p-2.5 translate-x-1/2 text-center bg-light2 dark:bg-dark2 rounded-lg text-sm text-dark1 dark:text-light1 font-monospace">
           hello world!
-          <br />
         </div>
       </Html>
     </mesh>
