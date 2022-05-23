@@ -17,8 +17,8 @@ const Home = () => {
         <div className="container h-full flex items-center justify-center">
           <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 10] }}>
             <pointLight color="red" />
-            <pointLight position={[10, 10, -10]} color="#718096" />
-            <pointLight position={[-10, -10, 10]} color="#F2718C" />
+            <pointLight position={[10, 10, -10]} color="#E7934F" />
+            <pointLight position={[-10, -10, 10]} color="#e63946" />
             <Content />
           </Canvas>
         </div>

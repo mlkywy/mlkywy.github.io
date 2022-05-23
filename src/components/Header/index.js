@@ -14,7 +14,7 @@ const Navbar = () => {
               className="text-accent text-2xl px-4 py-6 font-monospace"
               href="#"
             >
-              MLKYWY
+              m l k y w y
             </a>
 
             <button className="transition duration-500 ease-in-out rounded-full px-4 py-6 lg:hidden md:hidden">
