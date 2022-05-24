@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 const Title = (props) => {
   return (
     <>
-      <div className="w-80 text-5xl p-3  text-dark1 dark:text-light1 flex flex-col items-center text-center font-monospace">
+      <div className="w-80 text-4xl md:text-5xl lg:text-5xl p-3  text-dark1 dark:text-light1 flex flex-col items-center text-center font-monospace">
         {props.heading}
         <div className="w-full text-lg font-bold font-sans">
           <Typewriter

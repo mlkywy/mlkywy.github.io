@@ -41,7 +41,7 @@ const FadingImage = () => {
 
 export const FadingImageCanvas = () => {
   return (
-    <Canvas camera={{ position: [0, 0, 2], fov: 50 }}>
+    <Canvas camera={{ position: [0, 0, 1.5], fov: 50 }}>
       <Suspense fallback={null}>
         <FadingImage />
       </Suspense>

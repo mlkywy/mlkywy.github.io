@@ -42,6 +42,12 @@ const Content = () => {
       onClick={() => {
         setClick(!click);
       }}
+      // onPointerOver={() => {
+      //   setHover(true);
+      // }}
+      // onPointerOut={() => {
+      //   setHover(false);
+      // }}
     >
       <Shape position={[2, 0, 0]} />
       <Shape position={[0, 0, 2]} />
