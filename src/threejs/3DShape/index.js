@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Html } from "@react-three/drei";
 import "../../index.css";
@@ -19,15 +19,30 @@ const Shape = ({ time, ...props }) => {
 
 const Content = () => {
   const ref = useRef();
-  useFrame(
-    () =>
-      (ref.current.rotation.x =
+  // const [hover, setHover] = useState(false);
+  const [click, setClick] = useState(false);
+
+  useFrame(() => {
+    if (click) {
+      ref.current.rotation.x =
         ref.current.rotation.y =
         ref.current.rotation.z +=
-          0.015)
-  );
+          0.015;
+    } else {
+      ref.current.rotation.x =
+        ref.current.rotation.y =
+        ref.current.rotation.z -=
+          0.015;
+    }
+  });
+
   return (
-    <group ref={ref}>
+    <group
+      ref={ref}
+      onClick={() => {
+        setClick(!click);
+      }}
+    >
       <Shape position={[2, 0, 0]} />
       <Shape position={[0, 0, 2]} />
       <Shape position={[2, 0, 2]} />
