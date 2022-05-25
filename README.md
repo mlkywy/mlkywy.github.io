@@ -15,7 +15,12 @@ In-Progress:
 
 ## Preview
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91434717/170166921-8ec46e02-0a48-4688-8dea-3fedb1a09ad7.gif" />
+</p>
 
-  ![Capture](https://user-images.githubusercontent.com/91434717/170166116-1c4eaf9a-85da-450b-b6b0-a046595e9f49.PNG)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91434717/170166925-bc2e6ad8-6833-4a05-b714-4c809e9eb352.gif" />
+</p>
 
 
