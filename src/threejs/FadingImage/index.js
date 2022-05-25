@@ -10,19 +10,24 @@ import "../ImageFadeMaterial";
 const FadingImage = () => {
   const ref = useRef();
   const [texture1, texture2, dispTexture] = useTexture([img1, img2, disp]);
-  const [hovered, setHover] = useState(false);
+  const [hover, setHover] = useState(false);
+
   useFrame(
     () =>
       (ref.current.dispFactor = THREE.MathUtils.lerp(
         ref.current.dispFactor,
-        !!hovered,
+        !!hover,
         0.1
       ))
   );
+
   return (
     <mesh
       onPointerMove={(e) => setHover(true)}
       onPointerOut={(e) => setHover(false)}
+      onClick={(e) =>
+        window.open("https://www.artstation.com/mlkywy", "_blank")
+      }
     >
       <planeGeometry />
       <imageFadeMaterial
@@ -39,7 +44,7 @@ const FadingImage = () => {
   );
 };
 
-export const FadingImageCanvas = () => {
+export const FadingImageCanvas = (props) => {
   return (
     <Canvas camera={{ position: [0, 0, 1.5], fov: 50 }}>
       <Suspense fallback={null}>

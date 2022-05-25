@@ -35,10 +35,11 @@ module.exports = {
       colors: {
         dark1: "#171923",
         dark2: "#1A202C",
-        light1: "#E2E8F0",
-        light2: "#EDF2F7",
+        light1: "#eaeef3",
+        light2: "#f1f5f9",
         accent: "#e63946",
         middle: "#E7934F",
+        middle2: "#d36711",
       },
     },
   },

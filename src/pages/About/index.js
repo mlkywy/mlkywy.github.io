@@ -6,9 +6,9 @@ const About = () => {
     <div id="about" className="bg-light2 dark:bg-dark2 w-screen h-screen pt-20">
       <div className="container px-8 mx-auto flex items-center justify-center h-full ">
         <AboutMeCard
-          heading="A little about me..."
-          body1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          body2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          heading="Hello, World!"
+          body1="I am a University graduate interested in working in software development with a hobby for creating games! I also enjoy making art and designing graphics. I first discovered my love for programming towards the end of my college experience, where I explored several different career avenues. I still have much to learn, but I am eager to try new things and grow!"
+          body2="Below are a few of my favorite pastimes!"
         />
       </div>
     </div>
