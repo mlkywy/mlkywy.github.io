@@ -1,6 +1,6 @@
 ## Porfolio
 
-A single page portfolio created with React.js, Node.js, Three.js, and Tailwind.css. All stylings are custom. This project is currently in progress. 
+A single page portfolio created with React.js, Three.js, and Tailwind.css. All stylings are custom. This project is currently in progress. 
 
 Completed:
 
