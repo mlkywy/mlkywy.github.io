@@ -21,10 +21,10 @@ export const TextButton = (props) => {
 
 export const ProjectButton = (props) => {
   return (
-    <button class="inline-flex mr-2 items-center text-center justify-center w-20 px-3 py-2 font-semibold leading-none text-white bg-accent rounded-full mb-3">
-      <a href={props.link} target="_blank" rel="noopener noreferrer">
+    <a href={props.link} target="_blank" rel="noopener noreferrer">
+      <button class="inline-flex mr-2 items-center text-center justify-center w-20 px-3 py-2 font-semibold leading-none text-white bg-accent rounded-full mb-3">
         {props.option}
-      </a>
-    </button>
+      </button>
+    </a>
   );
 };

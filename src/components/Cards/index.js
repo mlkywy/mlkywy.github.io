@@ -7,7 +7,7 @@ export const AboutMeCard = (props) => {
   return (
     <div
       id="about"
-      className="w-full rounded-3xl h-auto lg:w-2/3 flex flex-col items-center bg-light2 dark:bg-dark2 md:bg-light1 md:dark:bg-dark1 lg:bg-light1 lg:dark:bg-dark1 md:p-12 lg:p-12"
+      className="w-full rounded-3xl h-auto lg:w-2/3 flex flex-col items-center drop-shadow-md bg-light2 dark:bg-dark2 md:bg-light1 md:dark:bg-dark1 lg:bg-light1 lg:dark:bg-dark1 md:p-12 lg:p-12"
     >
       <div className="w-full text-3xl px-3 text-middle2 dark:text-middle flex justify-center font-monospace">
         {props.heading}
@@ -61,7 +61,7 @@ export const PortfolioCard = (props) => {
     <div>
       {/* title section */}
       <button
-        className="w-full h-auto rounded-t-lg p-6 bg-light1 dark:bg-dark1 hover:dark:bg-accent hover:bg-accent drop-shadow-md text-white flex justify-between"
+        className="w-full h-auto rounded-t-3xl p-6 bg-light1 dark:bg-dark1 hover:dark:bg-accent hover:bg-accent drop-shadow-md text-white flex justify-between"
         onClick={handleClick}
       >
         <p className="text-dark1 dark:text-light1 text-2xl font-bold text-left">
@@ -73,11 +73,11 @@ export const PortfolioCard = (props) => {
       </button>
       {/* card expanded / content section */}
       {showNote && (
-        <div className="w-fullrounded-t-lg p-6 bg-light1 dark:bg-dark1 hover:bg-light2 hover:dark:bg-dark2 drop-shadow-md text-white flex flex-col">
+        <div className="w-full rounded-b-3xl p-6 bg-light1 dark:bg-dark1 hover:bg-light2 hover:dark:bg-dark2 drop-shadow-md text-white flex flex-col">
           <p className="mb-6 text-dark1 dark:text-light1">{props.content}</p>
           <div className="flex flex=row justify-start">
-            <ProjectButton link="" option="demo" />
-            <ProjectButton link="" option="code" />
+            <ProjectButton link={props.demolink} option="demo" />
+            <ProjectButton link={props.codelink} option="code" />
           </div>
         </div>
       )}

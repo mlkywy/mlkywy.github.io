@@ -2,8 +2,8 @@ import * as THREE from "three";
 import { Suspense, useRef, useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { useTexture } from "@react-three/drei";
-import img1 from "../img/img1.jpg";
-import img2 from "../img/img2.jpg";
+import img1 from "../img/KNIGHT2.png";
+import img2 from "../img/MAGE2.png";
 import disp from "../img/displacement/10.jpg";
 import "../ImageFadeMaterial";
 
