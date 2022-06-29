@@ -6,7 +6,7 @@ const Portfolio = () => {
     <div id="portfolio" className="bg-light2 dark:bg-dark2 w-screen pt-20">
       <div className="container px-8 md:px-4 lg:px-44 mx-auto flex flex-col gap-6 h-full pt-16 pb-40">
         <PortfolioCard
-          title="React Portfolio (WIP)"
+          title="React Portfolio (wip)"
           content="Personal project. Single page website created with React.js, Three.js, and Tailwind.css."
           demolink="https://alshei.github.io/"
           codelink="https://github.com/alshei/alshei.github.io"
@@ -24,7 +24,7 @@ const Portfolio = () => {
           codelink="https://github.com/alshei/D3-Final"
         />
         <PortfolioCard
-          title="React Notes Application (WIP)"
+          title="React Notes Application (wip)"
           content="Personal project. Note-taking CRUD app created with MondoDB, Express.js, React.js, Node.js, Tailwind.css. Frontend development; coded React components with completely custom stylings. Backend development; gained a deeper understanding of API endpoints and using relational databases."
           demolink="https://github.com/alshei/notepad-v2"
           codelink="https://github.com/alshei/notepad-v2"
