@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { FadingImageCanvas } from "../../threejs/FadingImage";
-import { TextButton } from "../Buttons";
+import { TextButton, ProjectButton } from "../Buttons";
+import { CaretDown } from "phosphor-react";
 
 export const AboutMeCard = (props) => {
   return (
     <div
       id="about"
-      className="w-full h-auto lg:w-2/3 flex flex-col items-center bg-light2 dark:bg-dark2 md:bg-light1 md:dark:bg-dark1 lg:bg-light1 lg:dark:bg-dark1 md:p-12 lg:p-12"
+      className="w-full rounded-3xl h-auto lg:w-2/3 flex flex-col items-center bg-light2 dark:bg-dark2 md:bg-light1 md:dark:bg-dark1 lg:bg-light1 lg:dark:bg-dark1 md:p-12 lg:p-12"
     >
       <div className="w-full text-3xl px-3 text-middle2 dark:text-middle flex justify-center font-monospace">
         {props.heading}
@@ -46,6 +47,40 @@ export const ResumeCard = (props) => {
         </h3>
       </div>
       <ul className="w-full py-6 md:py-8 lg:py-12 list-none">{props.body}</ul>
+    </div>
+  );
+};
+
+export const PortfolioCard = (props) => {
+  const [showNote, setShowNote] = useState(false);
+  const handleClick = () => {
+    setShowNote(!showNote);
+  };
+
+  return (
+    <div>
+      {/* title section */}
+      <button
+        className="w-full h-auto rounded-t-lg p-6 bg-light1 dark:bg-dark1 hover:dark:bg-accent hover:bg-accent drop-shadow-md text-white flex justify-between"
+        onClick={handleClick}
+      >
+        <p className="text-dark1 dark:text-light1 text-2xl font-bold text-left">
+          {props.title}
+        </p>
+        <div className="flex flex-row items-center gap-5 justify-between text-dark1 dark:text-light1 font-bold">
+          <CaretDown size="1.5rem" />
+        </div>
+      </button>
+      {/* card expanded / content section */}
+      {showNote && (
+        <div className="w-fullrounded-t-lg p-6 bg-light1 dark:bg-dark1 hover:bg-light2 hover:dark:bg-dark2 drop-shadow-md text-white flex flex-col">
+          <p className="mb-6 text-dark1 dark:text-light1">{props.content}</p>
+          <div className="flex flex=row justify-start">
+            <ProjectButton link="" option="demo" />
+            <ProjectButton link="" option="code" />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

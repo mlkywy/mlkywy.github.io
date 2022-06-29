@@ -66,7 +66,7 @@ const Experience = () => {
           ))}
         />
         <ResumeCard
-          role="Multimedia Developer"
+          role="Multimedia Developer Intern"
           company="Bottom-Line Performance"
           date="May 2019 — Aug 2019"
           body={jobText1.map((text) => (

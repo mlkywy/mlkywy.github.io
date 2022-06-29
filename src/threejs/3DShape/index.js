@@ -19,7 +19,7 @@ const Shape = ({ time, ...props }) => {
 
 const Content = () => {
   const ref = useRef();
-  // const [hover, setHover] = useState(false);
+
   const [click, setClick] = useState(false);
 
   useFrame(() => {
@@ -42,12 +42,6 @@ const Content = () => {
       onClick={() => {
         setClick(!click);
       }}
-      // onPointerOver={() => {
-      //   setHover(true);
-      // }}
-      // onPointerOut={() => {
-      //   setHover(false);
-      // }}
     >
       <Shape position={[2, 0, 0]} />
       <Shape position={[0, 0, 2]} />
