@@ -28,3 +28,13 @@ export const ProjectButton = (props) => {
     </a>
   );
 };
+
+export const ContactButton = (props) => {
+  return (
+    <a href={props.link} target="_blank" rel="noopener noreferrer">
+      <button class="inline-flex mr-2 items-center text-center justify-center w-32 px-3 py-3 font-semibold leading-none text-white bg-middle2 dark:bg-middle text-lg rounded mb-3">
+        {props.option}
+      </button>
+    </a>
+  );
+};

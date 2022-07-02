@@ -1,11 +1,16 @@
 import React from "react";
+import Form from "../../components/Form";
 
 const Contact = () => {
   return (
     <div
       id="contact"
       className="bg-light1 dark:bg-dark1 w-screen h-screen pt-20"
-    ></div>
+    >
+      <div className="container px-8 mx-auto flex items-center justify-center h-full">
+        <Form />
+      </div>
+    </div>
   );
 };
 
