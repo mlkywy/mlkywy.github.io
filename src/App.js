@@ -6,6 +6,7 @@ import Experience from "./pages/Experience";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import "./index.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Experience />
       <Portfolio />
       <Contact />
+      <Footer />
     </>
   );
 }

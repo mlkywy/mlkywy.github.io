@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="bg-light1 dark:bg-dark1 w-screen h-screen pt-20"
+      className="bg-light1 dark:bg-dark1 w-screen h-screen -mb-20"
     >
       <div className="container px-8 mx-auto flex items-center justify-center h-full">
         <Form />
