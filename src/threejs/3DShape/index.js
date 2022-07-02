@@ -6,13 +6,13 @@ import "../../index.css";
 const Shape = ({ time, ...props }) => {
   return (
     <mesh {...props}>
-      <icosahedronGeometry />
+      <sphereGeometry />
       <meshStandardMaterial roughness={0} emissive="#171923" />
-      {/* <Html distanceFactor={15}>
+      <Html distanceFactor={15}>
         <div className="w-24 p-2.5 translate-x-1/2 text-center bg-light2 dark:bg-dark2 rounded-lg text-sm text-dark1 dark:text-light1 font-monospace">
-          hello world!
+          hello, world!
         </div>
-      </Html> */}
+      </Html>
     </mesh>
   );
 };
@@ -43,39 +43,9 @@ const Content = () => {
         setClick(!click);
       }}
     >
-      <Shape position={[2, 0, 0]} />
-      <Shape position={[0, 0, 2]} />
-      <Shape position={[2, 0, 2]} />
-      <Shape position={[2, 0, -2]} />
-
-      <Shape position={[2, 2, 0]} />
-      <Shape position={[0, 2, 2]} />
-      <Shape position={[2, 2, 2]} />
-      <Shape position={[2, 2, -2]} />
-
-      <Shape position={[2, -2, 0]} />
-      <Shape position={[0, -2, 2]} />
-      <Shape position={[2, -2, 2]} />
-      <Shape position={[2, -2, -2]} />
-
-      <Shape position={[0, 2, 0]} />
-      <Shape position={[0, 0, 0]} />
-      <Shape position={[0, -2, 0]} />
-
-      <Shape position={[-2, 0, 2]} />
-      <Shape position={[-2, 0, -2]} />
       <Shape position={[-2, 0, 0]} />
-      <Shape position={[0, 0, -2]} />
-
-      <Shape position={[-2, 2, 2]} />
-      <Shape position={[-2, 2, -2]} />
-      <Shape position={[-2, 2, 0]} />
-      <Shape position={[0, 2, -2]} />
-
-      <Shape position={[-2, -2, 2]} />
-      <Shape position={[-2, -2, -2]} />
-      <Shape position={[-2, -2, 0]} />
       <Shape position={[0, -2, -2]} />
+      <Shape position={[2, 0, 0]} />
     </group>
   );
 };
