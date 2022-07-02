@@ -44,7 +44,7 @@ const Form = () => {
               First Name
             </label>
             <input
-              className="appearance-none block w-full bg-light2 text-dark2 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              className="appearance-none block w-full bg-light2 text-dark2 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white text-sm lg:text-base md:text-base"
               id="firstname"
               type="text"
               placeholder="First"
@@ -59,7 +59,7 @@ const Form = () => {
               Last Name
             </label>
             <input
-              className="appearance-none block w-full bg-light2 text-dark2 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
+              className="appearance-none block w-full bg-light2 text-dark2 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white text-sm lg:text-base md:text-base"
               id="lastname"
               type="text"
               placeholder="Last"
@@ -76,7 +76,7 @@ const Form = () => {
               E-mail
             </label>
             <input
-              className="appearance-none block w-full bg-light2 text-dark2 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              className="appearance-none block w-full bg-light2 text-dark2 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white text-sm lg:text-base md:text-base"
               id="email"
               type="email"
               placeholder="email@address.com"
@@ -93,7 +93,7 @@ const Form = () => {
               Message
             </label>
             <textarea
-              className=" no-resize appearance-none block w-full bg-light2 text-dark2 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white h-48 resize-none"
+              className="no-resize appearance-none block w-full bg-light2 text-dark2 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white h-48 resize-none text-sm lg:text-base md:text-base"
               id="message"
               placeholder="Let me know what you think!"
               required
@@ -102,7 +102,7 @@ const Form = () => {
         </div>
         <div className="md:flex md:items-center">
           <div className="md:w-1/3">
-            <ContactButton link="" option="Submit" type="submit">
+            <ContactButton link="" option="submit" type="submit">
               {status}
             </ContactButton>
           </div>
