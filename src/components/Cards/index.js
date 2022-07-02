@@ -68,7 +68,7 @@ export const PortfolioCard = (props) => {
         </p>
       </button>
       {/* card expanded / content section */}
-      {showNote && (
+      {!showNote && (
         <div className="w-full rounded-b p-6 bg-light1 dark:bg-dark1 hover:bg-light2 hover:dark:bg-dark2 drop-shadow-md text-white flex flex-col">
           <p className="mb-6 text-dark1 dark:text-light1 text-sm md:text-base lg:text-base">
             {props.content}

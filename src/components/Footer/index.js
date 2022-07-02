@@ -1,5 +1,4 @@
 import React from "react";
-import { GithubLogo, LinkedinLogo, TwitterLogo } from "phosphor-react";
 
 const Footer = () => {
   return (
@@ -8,7 +7,7 @@ const Footer = () => {
         <div className="container lg:px-8 md:px-8 mx-auto flex flex-wrap items-center justify-center">
           <div className="w-full relative flex justify-center lg:w-auto md:w-auto">
             <p className="text-xs text-accent">
-              2022. Made with love by yours truly!
+              Made with love by yours truly!
             </p>
           </div>
         </div>
