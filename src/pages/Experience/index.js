@@ -3,7 +3,7 @@ import { ResumeCard } from "../../components/Cards";
 
 const Experience = () => {
   const jobText1 = [
-    "* Company formerly known as Bottomline Performance before acquisition by Tier1 Performance in Sept 2019.",
+    "* Company formerly known as Bottom-Line Performance before acquisition by Tier1 Performance in Sept 2019.",
     "Worked with experienced graphic artists, programmers, technical writers, instructional designers, and project managers to develop client projects and innovative learning solutions; used Agile methodology.",
     "Designed full mockups and graphics for eLearning courses, websites, apps, print materials, and marketing presentations.",
     "Consistently met tight deadlines, scheduled and attended meetings with coworkers, mentors, and clients.",
