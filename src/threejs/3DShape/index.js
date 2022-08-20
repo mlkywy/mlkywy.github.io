@@ -54,8 +54,8 @@ const Light = () => {
   return (
     <>
       <pointLight color="red" />
-      <pointLight position={[10, 10, -10]} color="#E7934F" />
-      <pointLight position={[-10, -10, 10]} color="#e63946" />
+      <pointLight position={[10, 10, -10]} color="#F27579" />
+      <pointLight position={[-10, -10, 10]} color="#84a59d" />
     </>
   );
 };
