@@ -23,7 +23,7 @@ body {
 /* Works on Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #fff #e7934f;
+  scrollbar-color: #fff #6c9288;
 }
 
 /* Works on Chrome, Edge, and Safari */
@@ -32,22 +32,22 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-  background: #e7934f;
+  background: #6c9288;
 }
 
 *::-webkit-scrollbar-thumb {
   background-color: #fff;
   border-radius: 20px;
-  border: 3px solid #e7934f;
+  border: 3px solid #6c9288;
 }
 
 ::selection {
-  background: #e63946; /* WebKit/Blink Browsers */
+  background: #f27579; /* WebKit/Blink Browsers */
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #e63946; /* Gecko Browsers */
+  background: #f27579; /* Gecko Browsers */
   color: #fff;
 }
 
