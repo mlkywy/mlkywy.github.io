@@ -3,6 +3,7 @@ import { ResumeCard } from "../../components/Cards";
 
 const Experience = () => {
   const jobText1 = [
+    "* Company formerly known as Bottomline Performance before acquisition by Tier1 Performance in Sept 2019.",
     "Worked with experienced graphic artists, programmers, technical writers, instructional designers, and project managers to develop client projects and innovative learning solutions; used Agile methodology.",
     "Designed full mockups and graphics for eLearning courses, websites, apps, print materials, and marketing presentations.",
     "Consistently met tight deadlines, scheduled and attended meetings with coworkers, mentors, and clients.",
@@ -32,9 +33,26 @@ const Experience = () => {
     "Presented prototype with team members for client, instructors, and peers with the use of a live VR demonstration.",
   ];
 
+  const jobText5 = [
+    "Wrote Apex classes to handle backend functionality. e.g. Retrieved data from REST and SOAP API requests in Marketing Cloud, integrated Apex Actions (invocable methods) with Flows in Salesforce.",
+    "Created test classes for all code and performed tests to ensure total code coverage.",
+    "Gained experience with frontend technologies like Lightning Web Components using JavaScript.",
+    "Imported, exported, and cleaned data using Data Loader and created custom fields (columns), records (rows), on objects (database tables) as necessary in the dev environment.",
+  ];
+
   return (
     <div id="experience" className="bg-light1 dark:bg-dark1 w-screen py-20">
       <div className="container px-8 md:px-4 lg:px-32 mx-auto flex flex-col h-full ">
+        <ResumeCard
+          role="Application Developer"
+          company="DB Services"
+          date="June 2022 — Aug 2022"
+          body={jobText5.map((text) => (
+            <li className="pb-3 text-dark1 dark:text-light1 text-sm md:text-base lg:text-base">
+              {text}
+            </li>
+          ))}
+        />
         <ResumeCard
           role="Unity Developer"
           company="University of Arizona - College of Humanities"
@@ -66,7 +84,7 @@ const Experience = () => {
           ))}
         />
         <ResumeCard
-          role="Multimedia Developer Intern"
+          role="Multimedia Developer"
           company="Bottom-Line Performance"
           date="May 2019 — Aug 2019"
           body={jobText1.map((text) => (

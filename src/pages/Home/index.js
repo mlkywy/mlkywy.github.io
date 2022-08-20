@@ -9,7 +9,7 @@ const Home = () => {
         <div className="container flex items-center justify-center mt-24 lg:mt-0 md:mt-0">
           <Title
             heading={"Hi, I'm Alina!"}
-            subheading={"Recent graduate and web developer. "}
+            subheading={"Software && game developer. "}
           />
         </div>
 

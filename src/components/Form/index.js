@@ -49,7 +49,7 @@ const Form = () => {
               First Name
             </label>
             <input
-              className="appearance-none block w-full bg-light2 dark:bg-dark2 text-dark2 dark:text-light2 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white dark:focus:bg-black text-sm lg:text-base md:text-base"
+              className="border-none appearance-none block w-full bg-light2 dark:bg-dark2 text-dark2 dark:text-light2 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white dark:focus:bg-black text-sm lg:text-base md:text-base"
               id="firstname"
               name="firstname"
               type="text"
@@ -65,7 +65,7 @@ const Form = () => {
               Last Name
             </label>
             <input
-              className="appearance-none block w-full bg-light2 dark:bg-dark2 text-dark2 dark:text-light2 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white dark:focus:bg-black text-sm lg:text-base md:text-base"
+              className="border-none appearance-none block w-full bg-light2 dark:bg-dark2 text-dark2 dark:text-light2 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white dark:focus:bg-black text-sm lg:text-base md:text-base"
               id="lastname"
               name="lastname"
               type="text"
@@ -83,7 +83,7 @@ const Form = () => {
               E-mail
             </label>
             <input
-              className="appearance-none block w-full bg-light2 dark:bg-dark2 text-dark2 dark:text-light2 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white dark:focus:bg-black text-sm lg:text-base md:text-base"
+              className="border-none appearance-none block w-full bg-light2 dark:bg-dark2 text-dark2 dark:text-light2 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white dark:focus:bg-black text-sm lg:text-base md:text-base"
               id="email"
               name="email"
               type="email"
@@ -101,7 +101,7 @@ const Form = () => {
               Message
             </label>
             <textarea
-              className="no-resize appearance-none block w-full bg-light2 dark:bg-dark2 text-dark2 dark:text-light2 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white dark:focus:bg-black h-48 resize-none text-sm lg:text-base md:text-base"
+              className="border-none no-resize appearance-none block w-full bg-light2 dark:bg-dark2 text-dark2 dark:text-light2 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white dark:focus:bg-black h-48 resize-none text-sm lg:text-base md:text-base"
               id="message"
               name="message"
               placeholder="Let me know what you think!"

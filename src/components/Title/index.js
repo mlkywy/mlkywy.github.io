@@ -1,5 +1,10 @@
 import React from "react";
-import { GithubLogo, LinkedinLogo, TwitterLogo } from "phosphor-react";
+import {
+  GithubLogo,
+  LinkedinLogo,
+  TwitterLogo,
+  GameController,
+} from "phosphor-react";
 import Typewriter from "typewriter-effect";
 
 const Title = (props) => {
@@ -17,7 +22,7 @@ const Title = (props) => {
             }}
           />
         </div>
-        <div className="w-28 mt-8 border-t-4 border-accent text-middle2 dark:text-middle text-3xl font-normal flex flex-row justify-between py-6">
+        <div className="w-40 mt-8 border-t-4 border-accent text-middle2 dark:text-middle text-3xl font-normal flex flex-row justify-between py-6">
           <a href="https://github.com/alshei" target="_blank">
             <GithubLogo />
           </a>
@@ -29,6 +34,9 @@ const Title = (props) => {
           </a>
           <a href="https://twitter.com/wymlky" target="_blank">
             <TwitterLogo />
+          </a>
+          <a href="https://mlkywy.itch.io/" target="_blank">
+            <GameController />
           </a>
         </div>
       </div>
