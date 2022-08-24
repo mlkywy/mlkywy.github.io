@@ -23,7 +23,7 @@ const Title = (props) => {
           />
         </div>
         <div className="w-40 mt-8 border-t-4 border-accent text-middle2 dark:text-middle text-3xl font-normal flex flex-row justify-between py-6">
-          <a href="https://github.com/alshei" target="_blank">
+          <a href="https://github.com/mlkywy" target="_blank">
             <GithubLogo />
           </a>
           <a
