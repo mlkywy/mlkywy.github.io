@@ -20,7 +20,7 @@ const Portfolio = () => {
         <PortfolioCard
           title="Lung Capacity Visualization"
           content="Final project for a Visualizing Information course, coded in D3.js. Features a documentation page to explain the coding process and rationale behind the design choices. Added responsiveness to the visualization; user input changes the appearance and graph headings, and CSV data is processed dynamically."
-          demolink="https://alshei.github.io/D3-Final/index.html"
+          demolink="https://mlkywy.github.io/D3-Final/index.html"
           codelink="https://github.com/mlkywy/D3-Final"
         />
         <PortfolioCard
