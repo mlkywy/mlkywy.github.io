@@ -8,7 +8,7 @@ const Portfolio = () => {
         <PortfolioCard
           title="React Portfolio"
           content="Personal project. You're looking at it! Single page website created with ReactJS, Three.js, and Tailwind CSS. EmailJS was used to handle the contact form."
-          demolink="https://alshei.github.io/"
+          demolink="https://mlkywy.github.io/"
           codelink="https://github.com/mlkywy/mlkywy.github.io"
         />
         <PortfolioCard
