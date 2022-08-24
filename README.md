@@ -1,4 +1,4 @@
-## Porfolio
+## mlkywy.net
 
-A single page portfolio created with React.js, Three.js, and Tailwind.css. All stylings are custom. 
-https://alshei.github.io/#
+Single page portfolio website created with ReactJS, Three.js, and Tailwind CSS. EmailJS was used to handle the contact form!
+https://www.mlkywy.net/
