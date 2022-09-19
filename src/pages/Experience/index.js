@@ -40,9 +40,23 @@ const Experience = () => {
     "Imported, exported, and cleaned data using Data Loader and created custom fields (columns), records (rows), on objects (database tables) as necessary in the dev environment.",
   ];
 
+  const jobText6 = [
+    "Design, build, and maintain efficient, reusable, and reliable C# code with an emphasis on API development.",
+  ];
+
   return (
     <div id="experience" className="bg-light1 dark:bg-dark1 w-screen py-20">
       <div className="container px-8 md:px-4 lg:px-32 mx-auto flex flex-col h-full ">
+        <ResumeCard
+          role="Software Engineer"
+          company="Lockstep"
+          date="Sept 2022 — Present"
+          body={jobText6.map((text) => (
+            <li className="pb-3 text-dark1 dark:text-light1 text-sm md:text-base lg:text-base">
+              {text}
+            </li>
+          ))}
+        />
         <ResumeCard
           role="Application Developer"
           company="DB Services"
