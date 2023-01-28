@@ -8,7 +8,7 @@ export const AboutMeCard = (props) => {
       id="about"
       className="w-full rounded h-auto lg:w-2/3 flex flex-col items-center md:drop-shadow-md lg:drop-shadow-md bg-light2 dark:bg-dark2 md:bg-light1 md:dark:bg-dark1 lg:bg-light1 lg:dark:bg-dark1 md:p-12 lg:p-12"
     >
-      <div className="w-full text-3xl px-3 text-middle2 dark:text-middle flex justify-center font-monospace">
+      <div className="w-full text-2xl px-3 text-middle2 dark:text-middle flex justify-center font-monospace">
         {props.heading}
       </div>
 
@@ -63,7 +63,7 @@ export const PortfolioCard = (props) => {
         className="w-full h-auto rounded-t p-6 bg-light1 dark:bg-dark1 hover:dark:bg-accent hover:bg-accent drop-shadow-md text-white flex justify-between"
         onClick={handleClick}
       >
-        <p className="text-dark1 dark:text-light1 text-2xl md:text-3xl lg:text-3xl text-left font-monospace">
+        <p className="text-dark1 dark:text-light1 text-xl md:text-2xl lg:text-2xl text-left font-monospace">
           {props.title}
         </p>
       </button>

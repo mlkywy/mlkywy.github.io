@@ -1,5 +1,5 @@
 import React from "react";
-import { List } from "phosphor-react";
+import { List, Planet } from "phosphor-react";
 import { NavLink } from "../Buttons";
 import Toggle from "../ThemeToggle";
 
@@ -11,10 +11,10 @@ const Navbar = () => {
         <div className="container lg:px-8 md:px-8 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto md:w-auto">
             <a
-              className="text-accent text-2xl px-4 py-6 font-monospace"
+              className="text-accent text-xl px-4 py-6 font-monospace tracking-wide flex flex-row items-center gap-2"
               href="#"
             >
-              m l k y w y
+              <Planet /> mlkywy
             </a>
 
             <button className="transition duration-500 ease-in-out rounded-full px-4 py-6 lg:hidden md:hidden">

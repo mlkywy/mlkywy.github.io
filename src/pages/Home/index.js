@@ -8,7 +8,7 @@ const Home = () => {
       <div className="container px-8 mx-auto flex flex-col items-center lg:flex-row md:flex-row lg:justify-center md:justify-center h-full">
         <div className="container flex items-center justify-center mt-24 lg:mt-0 md:mt-0">
           <Title
-            heading={"Hi, I'm Alina!"}
+            heading={"hi, i'm alina!"}
             subheading={"Software && game developer. "}
           />
         </div>
