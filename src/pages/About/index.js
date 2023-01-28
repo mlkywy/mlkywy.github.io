@@ -6,8 +6,8 @@ const About = () => {
     <div id="about" className="bg-light2 dark:bg-dark2 w-screen h-screen pt-20">
       <div className="container px-8 mx-auto flex items-center justify-center h-full">
         <AboutMeCard
-          heading="Welcome to my portfolio!"
-          body1="I graduated in May 2022 with a B.S. in Media Arts and Science from the School of Informatics and Computing at Indiana University-Purdue University Indianapolis. I am a software developer with a hobby for creating games. I also enjoy making art and designing graphics. I discovered my love for programming towards the end of my college experience, around the time I explored several different career avenues. I still have much to learn, but I am eager to try new things and grow!"
+          heading="welcome to my portfolio!"
+          body1="I am a software engineer based in the Midwest US! I graduated in the summer of 2022 with a degree in Media Arts and Science before deciding to pursue programming as a career. I currently work as a junior .NET backend developer focused primarily on developing APIs. I am also a hobbyist game developer, artist, and graphic designer who strives to continuously learn new technologies."
           body2="Here are a few of my favorite pastimes!"
         />
       </div>

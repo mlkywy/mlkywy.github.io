@@ -42,6 +42,8 @@ const Experience = () => {
 
   const jobText6 = [
     "Design, build, and maintain efficient, reusable, and reliable C# code with an emphasis on API development.",
+    "Create new endpoints and corresponding unit tests; build upon existing endpoints.",
+    "Work on connectors to ERP systems.",
   ];
 
   return (

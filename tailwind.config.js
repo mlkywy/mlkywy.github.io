@@ -30,7 +30,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: "'Cabin', sans-serif",
-        monospace: "'VT323', monospace",
+        monospace: "'IBM Plex Mono', monospace",
       },
       colors: {
         dark1: "#171923",
