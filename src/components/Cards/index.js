@@ -8,7 +8,7 @@ export const AboutMeCard = (props) => {
       id="about"
       className="w-full rounded h-auto lg:w-2/3 flex flex-col items-center md:drop-shadow-md lg:drop-shadow-md bg-light2 dark:bg-dark2 md:bg-light1 md:dark:bg-dark1 lg:bg-light1 lg:dark:bg-dark1 md:p-12 lg:p-12"
     >
-      <div className="w-full text-2xl px-3 text-middle2 dark:text-middle flex justify-center font-monospace">
+      <div className="w-full text-center text-2xl px-3 text-middle2 dark:text-middle flex justify-center font-monospace">
         {props.heading}
       </div>
 

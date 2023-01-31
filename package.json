@@ -27,7 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "clean": "gh-pages-clean gh-pages -d build",
-    "deploy": "gh-pages -d build",
+    "add-domain": "echo \"mlkywy.net\" > build/CNAME",
+    "deploy": "npm run add-domain && gh-pages -d build",
     "dev": "nodemon server.js",
     "server": "node server.js"
   },
