@@ -20,7 +20,7 @@ const Portfolio = () => {
         <PortfolioCard
           title="songshuttle"
           content="Personal project. A simple application that makes use of the Spotify API to search for songs, find recommendations, and create playlists. (WIP)"
-          demolink="https://github.com/mlkywy/songshuttle"
+          demolink="https://mlkywy.net/songshuttle/"
           codelink="https://github.com/mlkywy/songshuttle"
         />
         <PortfolioCard
